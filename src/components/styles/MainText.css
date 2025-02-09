@@ -1,0 +1,57 @@
+/* CRT Text Container */
+.crt-text-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: underline;
+}
+
+/* Column Styling */
+.crt-column {
+  filter: brightness(1);
+}
+
+/* Dimmed Text */
+.dim-text {
+  filter: brightness(0.6);
+}
+
+/* ASCII Art Styling */
+.ascii-img {
+  font-size: 12px;
+  filter: brightness(1.2);
+}
+
+ul {
+  list-style: none;
+}
+
+.project p {
+  margin: 0px;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+.listing {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
