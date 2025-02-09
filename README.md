@@ -1,8 +1,15 @@
-# React + Vite
+# Work in Progress
+1. Curvature is not symmetrical
+2. Not framed with CRT monitor
+3. Text is distorted due to curvature
+4. Sides do not curve in aggressively enough
+5. Highlighting with cursor does not match the text position
+6. Not responsive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ideas: SVG
+1. Text is interactable
+2. Styling is not as clean. (Curvature will cause distortions)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ideas: WebGL & ThreeJS
+1. Gives a nice smooth curve and doesn't overly distort text like SVG.
+2. Text cannot be selected or highlighted.
